@@ -17,7 +17,7 @@ function App() {
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme(customization)}>
         <CssBaseline />
-        <Router basename="/FileUploadDev">
+        <Router>
           <Routes>
             <Route path='/' element={<Login />} />
             <Route path='/file-upload' element={<FileUpload />} />

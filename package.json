@@ -1,7 +1,6 @@
 {
   "name": "email-fetching",
   "private": true,
-  "homepage": "/FileUploadDev/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

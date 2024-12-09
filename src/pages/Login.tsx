@@ -51,6 +51,7 @@ const Login: React.FC = () => {
     // console.log(googleLogin)
 
     const onSubmit: SubmitHandler<LoginFormInputs> = async (data) => {
+        navigate('/drop-file');
         try {
             const result = await login(data);
             if (result?.data?.httpStatusCode === 200) {
